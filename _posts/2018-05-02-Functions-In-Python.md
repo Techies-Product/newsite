@@ -1,10 +1,18 @@
-<span style="color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">A function<span style="word-spacing: 3px;"> is a group of related statements that perform a specific task.</span></span>
+---
+layout: post
+title:  "Functions in Python"
+author: sourabh
+categories: [ jumpstart ]
+image: 
+---
+
+<span style="color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">A function<span style="word-spacing: 3px;">ï¿½is a group of related statements that perform a specific task.</span></span>
 
 <span style="font-family: Arial, sans-serif; color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">Python provides several built-in functions like print(),input() and len().</span>
 
 <span style="font-family: Arial, sans-serif; color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">But you can also write your own functions. It is a block of organized, reusable code that is used to perform a single, related action</span>.
 
-<span style="font-family: Arial, sans-serif; color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">Function blocks begin with the keyword </span><span style="color: #666666; font-family: Arial, sans-serif;">def</span><span style="color: #666666; font-family: Arial, sans-serif;"> followed by the function name and parentheses ( ( ) ).</span>
+<span style="font-family: Arial, sans-serif; color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">Function blocks begin with the keywordï¿½</span><span style="color: #666666; font-family: Arial, sans-serif;">def</span><span style="color: #666666; font-family: Arial, sans-serif;">ï¿½followed by the function name and parentheses ( ( ) ).</span>
 
 **<span style="color: #666666; font-family: Arial, sans-serif;">Defining a Function</span>**
 
@@ -16,7 +24,7 @@
 
 **<span style="color: #666666; font-family: Arial, sans-serif;">Parameters:</span>**
 
-<span style="color: #666666; font-family: Arial, sans-serif;">Information can be passed to functions as a parameter. </span><span style="color: #666666; font-family: Arial, sans-serif;">Parameters are specified after the function name, inside the parentheses. You can add as many parameters as you want, just separate them with a comma.</span>
+<span style="color: #666666; font-family: Arial, sans-serif;">Information can be passed to functions as a parameter.ï¿½</span><span style="color: #666666; font-family: Arial, sans-serif;">Parameters are specified after the function name, inside the parentheses. You can add as many parameters as you want, just separate them with a comma.</span>
 
 **<span style="color: #666666; font-family: Arial, sans-serif;">Return Values:</span>**
 
@@ -26,11 +34,11 @@
 
 <span style="color: #666666; font-family: Arial, sans-serif;">def functionname( parameters ):</span>
 
-<span style="color: #666666; font-family: Arial, sans-serif;">   "function_docstring"</span>
+<span style="color: #666666; font-family: Arial, sans-serif;">ï¿½ ï¿½"function_docstring"</span>
 
-<span style="color: #666666; font-family: Arial, sans-serif;">   function_suite</span>
+<span style="color: #666666; font-family: Arial, sans-serif;">ï¿½ ï¿½function_suite</span>
 
-<span style="color: #666666; font-family: Arial, sans-serif;">   return [expression]</span>
+<span style="color: #666666; font-family: Arial, sans-serif;">ï¿½ ï¿½return [expression]</span>
 
 <iframe src="https://repl.it/@Sumn/function?lite=true" width="100%" height="400px" frameborder="no" scrolling="no" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" allowfullscreen="allowfullscreen"></iframe>
 

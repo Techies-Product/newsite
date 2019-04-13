@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Python Logical Operators"
+author: sourabh
+categories: [ jumpstart ]
+image: 
+---
+
 ### **Python Logical Operators**
 
 Logical operators are the **<span style="background-color: #ccffff;">and</span>**, <span style="background-color: #ccffff;">**or**</span>, <span style="background-color: #ccffff;">**not** </span>operators.
@@ -10,7 +18,7 @@ Now we will see different Logical Operators and how to implement Logical operati
 
 <tr style="height: 18px;">
 
-<td style="width: 15.6556%; text-align: center; height: 18px;">**Symbol      **</td>
+<td style="width: 15.6556%; text-align: center; height: 18px;">**Symbol ï¿½ ï¿½ ï¿½**</td>
 
 <td style="width: 19.5127%; text-align: center; height: 18px;">**Operator Name**</td>
 
@@ -20,7 +28,7 @@ Now we will see different Logical Operators and how to implement Logical operati
 
 <tr style="height: 18px;">
 
-<td style="width: 15.6556%; height: 18px; text-align: center;">and </td>
+<td style="width: 15.6556%; height: 18px; text-align: center;">andï¿½</td>
 
 <td style="width: 19.5127%; height: 18px;">Logical AND</td>
 
@@ -48,7 +56,7 @@ If any of the two operands is true or non-zero, then the condition is true.
 
 <tr style="height: 18px;">
 
-<td style="width: 15.6556%; height: 18px; text-align: center;">not </td>
+<td style="width: 15.6556%; height: 18px; text-align: center;">notï¿½</td>
 
 <td style="width: 19.5127%; height: 18px;">Logical NOT</td>
 
@@ -64,7 +72,7 @@ It is used to reverse the logical state of the operand (true if an operand is fa
 
 </table>
 
-Now we will see <span style="background-color: #ccffff;">Truth</span> <span style="background-color: #ccffff;">Table</span> of logical operations <span style="background-color: #ccffff;">and</span>, <span style="background-color: #ccffff;">or</span>, <span style="background-color: #ccffff;">not </span>so we can easily understand the working of logical operators.
+Now we will see <span style="background-color: #ccffff;">Truth</span> <span style="background-color: #ccffff;">Table</span> of logical operations <span style="background-color: #ccffff;">and</span>, <span style="background-color: #ccffff;">or</span>, <span style="background-color: #ccffff;">notï¿½</span>so we can easily understand the working of logical operators.
 
 Only if both the operands are <span style="background-color: #ccffff;">True</span> then <span style="background-color: #ccffff;">and</span> will result in <span style="background-color: #ccffff;">True</span>.
 
@@ -78,7 +86,7 @@ Only if both the operands are <span style="background-color: #ccffff;">True</spa
 
 <td style="width: 2.1692%; height: 16px; text-align: center;">**A**</td>
 
-<td style="width: 2.1692%; height: 16px; text-align: center;">** B**</td>
+<td style="width: 2.1692%; height: 16px; text-align: center;">**ï¿½B**</td>
 
 <td style="width: 2.1692%; height: 16px; text-align: center;">**A and B**</td>
 
@@ -130,7 +138,7 @@ Only if both the operands are <span style="background-color: #ccffff;">True</spa
 
 If any of the operands is <span style="background-color: #ccffff;">True</span>, then <span style="background-color: #ccffff;">or</span> will result in <span style="background-color: #ccffff;">True</span>.
 
-#### **The Truth table for <span style="background-color: #ccffff;">or </span>**
+#### **The Truth table for <span style="background-color: #ccffff;">orï¿½</span>**
 
 <table style="border-collapse: collapse; width: 100%;" border="1">
 

@@ -1,18 +1,26 @@
+---
+layout: post
+title:  "Conditions in Python"
+author: sourabh
+categories: [ jumpstart ]
+image: 
+---
+
 In programming and scripting languages, conditional statements are used to perform different computations or actions depending on whether a condition evaluates to true or false. The condition usually uses comparisons and arithmetic expressions with variables. These expressions are evaluated to the Boolean values True or False.
 
 The general form of the if statement in Python looks like this:
 
 if condition_1:
 
-    statement_block_1
+ï¿½ ï¿½ statement_block_1
 
 elif condition_2:
 
-    statement_block_2
+ï¿½ ï¿½ statement_block_2
 
 else:
 
-    statement_block_3
+ï¿½ ï¿½ statement_block_3
 
 If the condition "condition_1" is True, the statements in the block statement_block_1 will be executed. If not, condition_2 will be executed. If condition_2 evaluates to True, statement_block_2 will be executed, if condition_2 is False, the statements in statement_block_3 will be executed.
 

@@ -1,8 +1,16 @@
+---
+layout: post
+title:  "Python Assignmenet Operators"
+author: sourabh
+categories: [ jumpstart ]
+image: 
+---
+
 ### Python Assignment Operators
 
 The assignment operator which assigns the value of its right operand to its left operand.
 
-That is, Equal : c = a + b assigns the value of (a+b) to c . 
+That is, Equal : c = a + b assigns the value of (a+b) to c .ï¿½
 
 The other assignment operators are usually shorthand operators.
 
@@ -28,11 +36,11 @@ Now we will see Assignment Operators and how to implement Assignment operations 
 
 <td style="width: 13.7061%; height: 18px; text-align: center;">=</td>
 
-<td style="width: 15.4605%; height: 18px; text-align: left;">  Equal</td>
+<td style="width: 15.4605%; height: 18px; text-align: left;">ï¿½ Equal</td>
 
 <td style="width: 70.8333%; height: 18px;">
 
- It is used to assigns the values from right side operand to left side operand  
+ï¿½It is used to assigns the values from right side operand to left side operandï¿½ï¿½
 
 </td>
 
@@ -42,11 +50,11 @@ Now we will see Assignment Operators and how to implement Assignment operations 
 
 <td style="width: 13.7061%; height: 18px; text-align: center;">+=</td>
 
-<td style="width: 15.4605%; height: 18px; text-align: left;">  Add AND</td>
+<td style="width: 15.4605%; height: 18px; text-align: left;">ï¿½ Add AND</td>
 
 <td style="width: 70.8333%; height: 18px;">
 
- It is used to add right operand value to the left operand value and assign the result to     left operand
+ï¿½It is used to add right operand value to the left operand value and assign the result toï¿½ ï¿½ ï¿½left operand
 
 </td>
 
@@ -56,11 +64,11 @@ Now we will see Assignment Operators and how to implement Assignment operations 
 
 <td style="width: 13.7061%; height: 18px; text-align: center;">-=</td>
 
-<td style="width: 15.4605%; height: 18px; text-align: left;">  Subtract AND</td>
+<td style="width: 15.4605%; height: 18px; text-align: left;">ï¿½ Subtract AND</td>
 
 <td style="width: 70.8333%; height: 18px;">
 
- It is used to subtracts right operand value from the left operand value and assign the   result to left operand
+ï¿½It is used to subtracts right operand value from the left operand value and assign theï¿½ ï¿½result to left operand
 
 </td>
 
@@ -70,11 +78,11 @@ Now we will see Assignment Operators and how to implement Assignment operations 
 
 <td style="width: 13.7061%; height: 18px; text-align: center;">*=</td>
 
-<td style="width: 15.4605%; height: 18px; text-align: left;">  Multiply AND</td>
+<td style="width: 15.4605%; height: 18px; text-align: left;">ï¿½ Multiply AND</td>
 
 <td style="width: 70.8333%; height: 18px;">
 
- It is used to multiplies right operand with the left operand and assigns the result to left   operand 
+ï¿½It is used to multiplies right operand with the left operand and assigns the result to leftï¿½ ï¿½operandï¿½
 
 </td>
 
@@ -84,11 +92,11 @@ Now we will see Assignment Operators and how to implement Assignment operations 
 
 <td style="width: 13.7061%; height: 18px; text-align: center;">/=</td>
 
-<td style="width: 15.4605%; height: 18px; text-align: left;">  Divide AND</td>
+<td style="width: 15.4605%; height: 18px; text-align: left;">ï¿½ Divide AND</td>
 
 <td style="width: 70.8333%; height: 18px;">
 
- It is used to divides left operand value with the right operand  value and assign the result   to left operand
+ï¿½It is used to divides left operand value with the right operandï¿½ value and assign the resultï¿½ ï¿½to left operand
 
 </td>
 
@@ -98,11 +106,11 @@ Now we will see Assignment Operators and how to implement Assignment operations 
 
 <td style="width: 13.7061%; height: 18px; text-align: center;">%=</td>
 
-<td style="width: 15.4605%; height: 18px; text-align: left;">  Modulus AND</td>
+<td style="width: 15.4605%; height: 18px; text-align: left;">ï¿½ Modulus AND</td>
 
 <td style="width: 70.8333%; height: 18px;">
 
- It is used to take modulus using two operands and assign the result to left operand
+ï¿½It is used to take modulus using two operands and assign the result to left operand
 
 </td>
 
@@ -112,11 +120,11 @@ Now we will see Assignment Operators and how to implement Assignment operations 
 
 <td style="width: 13.7061%; height: 18px; text-align: center;">**=</td>
 
-<td style="width: 15.4605%; height: 18px; text-align: left;">  Exponent AND</td>
+<td style="width: 15.4605%; height: 18px; text-align: left;">ï¿½ Exponent AND</td>
 
 <td style="width: 70.8333%; height: 18px;">
 
- It is used to calculate exponential (power) value of operators and assign the value to the   left operand
+ï¿½It is used to calculate exponential (power) value of operators and assign theï¿½value to theï¿½ ï¿½left operand
 
 </td>
 
@@ -126,11 +134,11 @@ Now we will see Assignment Operators and how to implement Assignment operations 
 
 <td style="width: 13.7061%; height: 18px; text-align: center;">//=</td>
 
-<td style="width: 15.4605%; height: 18px; text-align: left;">  Floor Division</td>
+<td style="width: 15.4605%; height: 18px; text-align: left;">ï¿½ Floor Division</td>
 
 <td style="width: 70.8333%; height: 18px;">
 
- It is used to calculate  floor division of operators and assign the value to the left operand
+ï¿½It is used to calculateï¿½ floor division of operators and assign theï¿½value to the left operand
 
 </td>
 

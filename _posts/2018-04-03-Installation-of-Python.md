@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Installation of Python"
+author: sourabh
+categories: [ jumpstart ]
+image: ""
+---
 **Introduction**
 
 In this tutorial, we will learn about how to install python 3\. Python is available for a variety of platforms.
@@ -8,21 +15,21 @@ Following are the steps to install Python on Windows machine.
 
 First, open the web browser and then go to the following link
 
-        [Download Python](https://www.python.org/downloads/ "Python Download")
+ï¿½ ï¿½ ï¿½ ï¿½ï¿½[Download Python](https://www.python.org/downloads/ "Python Download")
 
 ![](https://raw.githubusercontent.com/sourabhsomani/PythonBabu/master/Shaili/InstallationPython/image1.PNG)
 
-**Step 2 **
+**Step 2ï¿½**
 
 After downloading Python3.6.5 web installer, It is available for both 32-bit and 64-bit versions of the interpreter.
 
 ![](https://raw.githubusercontent.com/sourabhsomani/PythonBabu/master/Shaili/InstallationPython/image2.PNG)
 
-**Step 3 **
+**Step 3ï¿½**
 
 Here two options are available
 
-           If we select **"Install Now"** option
+ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½If we select **"Install Now"** option
 
 *   Python will be installed in our directory according to the path.
 *   All the libraries, pip and python launcher will be installed.
@@ -32,15 +39,15 @@ Here two options are available
 
 ![](https://raw.githubusercontent.com/sourabhsomani/PythonBabu/master/Shaili/InstallationPython/image4.PNG)
 
-**Step 4 **
+**Step 4ï¿½**
 
 If we select **"customize installation"** it will allow us to select installation location to install debugging symbols.
 
 ![](https://raw.githubusercontent.com/sourabhsomani/PythonBabu/master/Shaili/InstallationPython/image4.PNG)
 
-**Step ****5 **
+**Stepï¿½****5ï¿½**
 
-To select  install launcher for all users we need to select "**Customize installation**". In this following options are available:       
+To selectï¿½ install launcher for all users we need to select "**Customize installation**". In this following options are available:ï¿½ ï¿½ ï¿½ ï¿½
 
 *   Need to provide administrative approval
 *   Python will be installed into the user directory.
@@ -52,6 +59,6 @@ To select  install launcher for all users we need to select "**Customize install
 
 ![](https://raw.githubusercontent.com/sourabhsomani/PythonBabu/master/Shaili/InstallationPython/image6.PNG)
 
-**Step 6 **
+**Step 6ï¿½**
 
 Click on "**Install**" and complete the installation process.

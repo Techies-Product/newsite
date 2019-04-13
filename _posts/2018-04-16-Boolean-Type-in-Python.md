@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Boolean Type in Python"
+author: sourabh
+categories: [ jumpstart ]
+image: 
+---
+
 **Boolean**
 
 In computer science, booleans has two values which can be either true or false. Boolean values represents truth value of the logic and boolean algebra.

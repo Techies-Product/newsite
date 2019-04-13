@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Data Types in Python"
+author: sourabh
+categories: [ jumpstart ]
+image: 
+---
+
 A data type is a classification of one of a variety of types of data, such as Number, Boolean, Strings and so on. Data types determine the possible value for the type. If an operation is done then it can be done on the value of that type.
 
 In the Python programming language, every value has a datatype. You don't need to declare it but you don't need to declare the datatype for that specific variable. Like in JavaScript based on the data that we assign to the variable, Python determines the type. In the Python, everything is an object.

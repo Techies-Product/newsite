@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Operators in Python"
+author: sourabh
+categories: [ jumpstart ]
+image: 
+---
+
 Operators are symbols which can manipulate the value of operands by performing mathematical and logical operations.
 
 Consider the expression **2 + 3 = 5**.here, **2** and **3** are operands and **+** is operator.
@@ -6,7 +14,7 @@ Consider the expression **2 + 3 = 5**.here, **2** and **3** are operands and **+
 
 Python supports following types of operators.
 
-*   Arithmetic Operators 
+*   Arithmetic Operatorsï¿½
 *   Assignment Operators
 *   Logical Operators
 *   Comparison (Relational) Operators
@@ -24,9 +32,9 @@ Now we will see different Arithmetic Operators and how to implement arithmetic o
 
 <tr style="height: 18px; background-color: #65d2f0;">
 
-<td style="width: 172px; height: 18px;">           **Symbol**      </td>
+<td style="width: 172px; height: 18px;">ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½**Symbol** ï¿½ ï¿½ ï¿½</td>
 
-<td style="width: 196px; height: 18px;">**          Operator Name**</td>
+<td style="width: 196px; height: 18px;">**ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ Operator Name**</td>
 
 <td style="width: 589px; height: 18px;">**Description**</td>
 
@@ -34,9 +42,9 @@ Now we will see different Arithmetic Operators and how to implement arithmetic o
 
 <tr style="height: 10px;">
 
-<td style="width: 172px; height: 10px; text-align: left;">                  +</td>
+<td style="width: 172px; height: 10px; text-align: left;">ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ +</td>
 
-<td style="width: 196px; height: 10px; text-align: left;"> Addition                  </td>
+<td style="width: 196px; height: 10px; text-align: left;">ï¿½Additionï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ï¿½</td>
 
 <td style="width: 589px; height: 10px;">
 
@@ -48,9 +56,9 @@ It is used to add values on either side of the operator and give the result.
 
 <tr style="height: 18px;">
 
-<td style="width: 172px; height: 18px; text-align: left;">                  -</td>
+<td style="width: 172px; height: 18px; text-align: left;">ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ -</td>
 
-<td style="width: 196px; height: 18px; text-align: left;"> Subtraction               </td>
+<td style="width: 196px; height: 18px; text-align: left;">ï¿½Subtractionï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½</td>
 
 <td style="width: 589px; height: 18px;">
 
@@ -62,13 +70,13 @@ It is used to subtracts values of right- hand operand from left-hand operand.
 
 <tr style="height: 18px;">
 
-<td style="width: 172px; height: 10px; text-align: left;">                  *</td>
+<td style="width: 172px; height: 10px; text-align: left;">ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ *</td>
 
-<td style="width: 196px; height: 10px; text-align: left;"> Multiplication            </td>
+<td style="width: 196px; height: 10px; text-align: left;">ï¿½Multiplicationï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ï¿½</td>
 
 <td style="width: 589px; height: 10px;">
 
-It is used to multiplies values on both sides of the operator.            
+It is used to multiplies values on both sides of the operator.ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ï¿½
 
 </td>
 
@@ -76,9 +84,9 @@ It is used to multiplies values on both sides of the operator.            
 
 <tr style="height: 18px;">
 
-<td style="width: 172px; height: 18px; text-align: left;">                  /</td>
+<td style="width: 172px; height: 18px; text-align: left;">ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ /</td>
 
-<td style="width: 196px; height: 18px; text-align: left;"> Division               </td>
+<td style="width: 196px; height: 18px; text-align: left;">ï¿½Division ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ï¿½</td>
 
 <td style="width: 589px; height: 18px;">
 
@@ -90,9 +98,9 @@ It is used to divide left-hand operator by right-hand operator.
 
 <tr style="height: 18px;">
 
-<td style="width: 172px; height: 18px; text-align: left;">                 %</td>
+<td style="width: 172px; height: 18px; text-align: left;">ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½%</td>
 
-<td style="width: 196px; height: 18px; text-align: left;"> Modulus               </td>
+<td style="width: 196px; height: 18px; text-align: left;">ï¿½Modulus ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ï¿½</td>
 
 <td style="width: 589px; height: 18px;">
 
@@ -104,9 +112,9 @@ It is used to divide left-hand operator by right-hand operator and returns the r
 
 <tr style="height: 18px;">
 
-<td style="width: 172px; height: 10px; text-align: left;">                **</td>
+<td style="width: 172px; height: 10px; text-align: left;">ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ **</td>
 
-<td style="width: 196px; height: 10px; text-align: left;"> Exponent               </td>
+<td style="width: 196px; height: 10px; text-align: left;">ï¿½Exponent ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ï¿½</td>
 
 <td style="width: 589px; height: 10px;">
 
@@ -118,9 +126,9 @@ It is used to calculates the exponential power.
 
 <tr style="height: 10px;">
 
-<td style="width: 172px; height: 20px; text-align: left;">                 //</td>
+<td style="width: 172px; height: 20px; text-align: left;">ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½ ï¿½//</td>
 
-<td style="width: 196px; height: 20px; text-align: left;"> Floor Division</td>
+<td style="width: 196px; height: 20px; text-align: left;">ï¿½Floor Division</td>
 
 <td style="width: 589px; height: 20px;">
 

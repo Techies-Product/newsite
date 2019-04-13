@@ -1,8 +1,16 @@
+---
+layout: post
+title:  "Python Comparison (Relational) Operators"
+author: sourabh
+categories: [ jumpstart ]
+image: 
+---
+
 ### **Python Comparison (Relational) Operators**
 
 These operators used to compare the values on both sides of operands and decide the relation among them, it is also known as Relational operators.
 
-Now we will see different Comparison (Relational) Operators and how to implement Comparison operations in python.
+Now we will see different Comparison (Relational) Operators and how to implement Comparisonï¿½operations in python.
 
 <table style="border-collapse: collapse; width: 100%; height: 531px;" border="1">
 
@@ -10,7 +18,7 @@ Now we will see different Comparison (Relational) Operators and how to implement
 
 <tr style="height: 18px; border-color: #287ec9;">
 
-<td style="width: 33.3333%; height: 18px; text-align: center;">**Symbol      **</td>
+<td style="width: 33.3333%; height: 18px; text-align: center;">**Symbol ï¿½ ï¿½ ï¿½**</td>
 
 <td style="width: 33.3333%; height: 18px; text-align: center;">**Operator Name**</td>
 
@@ -36,7 +44,7 @@ If the values of two operands are equal, then condition true, otherwise false.
 
 <td style="width: 33.3333%; height: 18px; text-align: center;">!= or <></td>
 
-<td style="width: 33.3333%; height: 18px; text-align: center;">Not Equal </td>
+<td style="width: 33.3333%; height: 18px; text-align: center;">Not Equalï¿½</td>
 
 <td style="width: 33.3333%; height: 18px;">
 
@@ -54,7 +62,7 @@ If the values of two operands are not equal, then condition true.Both the operat
 
 <td style="width: 33.3333%; height: 18px;">
 
-If the value of the left-side operand is greater than the value of the right-side operand then condition becomes true.
+If the value of the left-side operand is greater than the value of theï¿½right-side operandï¿½then condition becomes true.
 
 </td>
 
@@ -64,11 +72,11 @@ If the value of the left-side operand is greater than the value of the right-sid
 
 <td style="width: 33.3333%; height: 18px; text-align: center;"><</td>
 
-<td style="width: 33.3333%; height: 18px; text-align: center;"> Less Than</td>
+<td style="width: 33.3333%; height: 18px; text-align: center;">ï¿½Less Than</td>
 
 <td style="width: 33.3333%; height: 18px;">
 
-If the value of the left-side operand is less than the value of right-side operand then condition becomes true. 
+If the value of the left-side operand is less than the value of right-side operandï¿½then condition becomes true.ï¿½
 
 </td>
 
@@ -82,7 +90,7 @@ If the value of the left-side operand is less than the value of right-side opera
 
 <td style="width: 33.3333%; height: 18px;">
 
-If the value of the left-side operand is less than or equal to the value of right side operand, the condition becomes true.
+If the value of the left-side operand is less than or equal to the value of right sideï¿½operand, the condition becomes true.
 
 </td>
 
@@ -96,7 +104,7 @@ If the value of the left-side operand is less than or equal to the value of righ
 
 <td style="width: 33.3333%; height: 18px;">
 
-If the value of the left-side operand is greater than or equal to the value of right-side operand, the condition becomes true.
+If the value of the left-side operand is greater than or equal to the value of right-sideï¿½operand, the condition becomes true.
 
 </td>
 

@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "String in Python"
+author: sourabh
+categories: [ jumpstart ]
+image: 
+---
+
 <span style="font-family: Arial, sans-serif; color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">Python has a built-in string class named "str".</span>
 
 <span style="font-family: Arial, sans-serif; color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">String literals can be enclosed by either double or single quotes.</span>
@@ -8,164 +16,164 @@
 
 <span style="font-family: Arial, sans-serif; color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;"><span style="color: #666666; font-family: Arial, sans-serif;">The len function returns the number of characters in a string.</span></span>
 
-<span style="color: #666666; font-family: Arial, sans-serif;">A segment of a string is called a slice. Selecting a slice is similar to selecting a </span><span style="color: #666666; font-family: Arial, sans-serif;">character.</span>
+<span style="color: #666666; font-family: Arial, sans-serif;">A segment of a string is called a slice. Selecting a slice is similar to selecting aï¿½</span><span style="color: #666666; font-family: Arial, sans-serif;">character.</span>
 
 <iframe src="https://repl.it/@Sumn/string?lite=true" width="100%" height="400px" frameborder="no" scrolling="no" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" allowfullscreen="allowfullscreen"></iframe>
 
-<span style="font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; text-align: justify;">Python includes the following built-in methods to manipulate strings </span>
+<span style="font-family: Verdana, Geneva, Tahoma, Arial, Helvetica, sans-serif; font-size: 15px; text-align: justify;">Python includes the following built-in methods to manipulate stringsï¿½</span>
 
-1   capitalize()
+1ï¿½ ï¿½capitalize()
 
-     Capitalizes first letter of string
+ï¿½ ï¿½ ï¿½Capitalizes first letter of string
 
-2   center(width, fillchar)
+2ï¿½ ï¿½center(width, fillchar)
 
-     Returns a string padded with fillchar with the original string centered to a total of width columns.
+ï¿½ ï¿½ ï¿½Returns a string padded with fillchar with the original string centered to a total of width columns.
 
-3   count(str, beg = 0,end = len(string))
+3ï¿½ ï¿½count(str, beg = 0,end = len(string))
 
-     Counts how many times str occurs in string or in a substring of string if starting index beg and ending index end are given.
+ï¿½ ï¿½ ï¿½Counts how many times str occurs in string or in a substring of string if starting index beg and ending index end are given.
 
-4   decode(encoding = 'UTF-8',errors = 'strict')
+4ï¿½ ï¿½decode(encoding = 'UTF-8',errors = 'strict')
 
-     Decodes the string using the codec registered for encoding. encoding defaults to the default string encoding.
+ï¿½ ï¿½ ï¿½Decodes the string using the codec registered for encoding. encoding defaults to the default string encoding.
 
-5   encode(encoding = 'UTF-8',errors = 'strict')
+5ï¿½ ï¿½encode(encoding = 'UTF-8',errors = 'strict')
 
-     Returns encoded string version of string; on error, default is to raise a ValueError unless errors is given with 'ignore' or 'replace'.
+ï¿½ ï¿½ ï¿½Returns encoded string version of string; on error, default is to raise a ValueError unless errors is given with 'ignore' or 'replace'.
 
-6   endswith(suffix, beg = 0, end = len(string))
+6ï¿½ ï¿½endswith(suffix, beg = 0, end = len(string))
 
-     Determines if string or a substring of string (if starting index beg and ending index end are given) ends with suffix; returns true if so and false otherwise.
+ï¿½ ï¿½ ï¿½Determines if string or a substring of string (if starting index beg and ending index end are given) ends with suffix; returns true if so and false otherwise.
 
-7   expandtabs(tabsize = 8)
+7ï¿½ ï¿½expandtabs(tabsize = 8)
 
-     Expands tabs in string to multiple spaces; defaults to 8 spaces per tab if tabsize not provided.
+ï¿½ ï¿½ ï¿½Expands tabs in string to multiple spaces; defaults to 8 spaces per tab if tabsize not provided.
 
-8   find(str, beg = 0 end = len(string))
+8ï¿½ ï¿½find(str, beg = 0 end = len(string))
 
-     Determine if str occurs in string or in a substring of string if starting index beg and ending index end are given returns index if found and -1 otherwise.
+ï¿½ ï¿½ ï¿½Determine if str occurs in string or in a substring of string if starting index beg and ending index end are given returns index if found and -1 otherwise.
 
-9   index(str, beg = 0, end = len(string))
+9ï¿½ ï¿½index(str, beg = 0, end = len(string))
 
-     Same as find(), but raises an exception if str not found.
+ï¿½ ï¿½ ï¿½Same as find(), but raises an exception if str not found.
 
-10   isalnum()
+10ï¿½ ï¿½isalnum()
 
-      Returns true if string has at least 1 character and all characters are alphanumeric and false otherwise.
+ï¿½ ï¿½ ï¿½ Returns true if string has at least 1 character and all characters are alphanumeric and false otherwise.
 
-11   isalpha()
+11ï¿½ ï¿½isalpha()
 
-      Returns true if string has at least 1 character and all characters are alphabetic and false otherwise.
+ï¿½ ï¿½ ï¿½ Returns true if string has at least 1 character and all characters are alphabetic and false otherwise.
 
-12   isdigit()
+12ï¿½ ï¿½isdigit()
 
-      Returns true if string contains only digits and false otherwise.
+ï¿½ ï¿½ ï¿½ Returns true if string contains only digits and false otherwise.
 
-13   islower()
+13ï¿½ ï¿½islower()
 
-      Returns true if string has at least 1 cased character and all cased characters are in lowercase and false otherwise.
+ï¿½ ï¿½ ï¿½ Returns true if string has at least 1 cased character and all cased characters are in lowercase and false otherwise.
 
-14   isnumeric()
+14ï¿½ ï¿½isnumeric()
 
-      Returns true if a unicode string contains only numeric characters and false otherwise.
+ï¿½ ï¿½ ï¿½ Returns true if a unicode string contains only numeric characters and false otherwise.
 
-15   isspace()
+15ï¿½ ï¿½isspace()
 
-      Returns true if string contains only whitespace characters and false otherwise.
+ï¿½ ï¿½ ï¿½ Returns true if string contains only whitespace characters and false otherwise.
 
-16   istitle()
+16ï¿½ ï¿½istitle()
 
-       Returns true if string is properly "titlecased" and false otherwise.
+ï¿½ ï¿½ ï¿½ ï¿½Returns true if string is properly "titlecased" and false otherwise.
 
-17   isupper()
+17ï¿½ ï¿½isupper()
 
-      Returns true if string has at least one cased character and all cased characters are in uppercase and false otherwise.
+ï¿½ ï¿½ ï¿½ Returns true if string has at least one cased character and all cased characters are in uppercase and false otherwise.
 
-18   join(seq)
+18ï¿½ ï¿½join(seq)
 
-       Merges (concatenates) the string representations of elements in sequence seq into a string, with separator string.
+ï¿½ ï¿½ ï¿½ ï¿½Merges (concatenates) the string representations of elements in sequence seq into a string, with separator string.
 
-19   len(string)
+19ï¿½ ï¿½len(string)
 
-      Returns the length of the string
+ï¿½ ï¿½ ï¿½ Returns the length of the string
 
-20   ljust(width[, fillchar])
+20ï¿½ ï¿½ljust(width[, fillchar])
 
-      Returns a space-padded string with the original string left-justified to a total of width columns.
+ï¿½ ï¿½ ï¿½ Returns a space-padded string with the original string left-justified to a total of width columns.
 
-21   lower()
+21ï¿½ ï¿½lower()
 
-      Converts all uppercase letters in string to lowercase.
+ï¿½ ï¿½ ï¿½ Converts all uppercase letters in string to lowercase.
 
-22   lstrip()
+22ï¿½ ï¿½lstrip()
 
-      Removes all leading whitespace in string.
+ï¿½ ï¿½ ï¿½ Removes all leading whitespace in string.
 
-23   maketrans()
+23ï¿½ ï¿½maketrans()
 
-      Returns a translation table to be used in translate function.
+ï¿½ ï¿½ ï¿½ Returns a translation table to be used in translate function.
 
-24   max(str)
+24ï¿½ ï¿½max(str)
 
-      Returns the max alphabetical character from the string str.
+ï¿½ ï¿½ ï¿½ Returns the max alphabetical character from the string str.
 
-25   min(str)
+25ï¿½ ï¿½min(str)
 
-      Returns the min alphabetical character from the string str.
+ï¿½ ï¿½ ï¿½ Returns the min alphabetical character from the string str.
 
-26   replace(old, new [, max])
+26ï¿½ ï¿½replace(old, new [, max])
 
-      Replaces all occurrences of old in string with new or at most max occurrences if max given.
+ï¿½ ï¿½ ï¿½ Replaces all occurrences of old in string with new or at most max occurrences if max given.
 
-27   rfind(str, beg = 0,end = len(string))
+27ï¿½ ï¿½rfind(str, beg = 0,end = len(string))
 
-      Same as find(), but search backwards in string.
+ï¿½ ï¿½ ï¿½ Same as find(), but search backwards in string.
 
-28   rindex( str, beg = 0, end = len(string))
+28ï¿½ ï¿½rindex( str, beg = 0, end = len(string))
 
-      Same as index(), but search backwards in string.
+ï¿½ ï¿½ ï¿½ Same as index(), but search backwards in string.
 
-29   rjust(width,[, fillchar])
+29ï¿½ ï¿½rjust(width,[, fillchar])
 
-      Returns a space-padded string with the original string right-justified to a total of width columns.
+ï¿½ ï¿½ ï¿½ Returns a space-padded string with the original string right-justified to a total of width columns.
 
-30   rstrip()
+30ï¿½ ï¿½rstrip()
 
-      Removes all trailing whitespace of string.
+ï¿½ ï¿½ ï¿½ Removes all trailing whitespace of string.
 
-31   split(str="", num=string.count(str))
+31ï¿½ ï¿½split(str="", num=string.count(str))
 
-      Splits string according to delimiter str (space if not provided) and returns list of substrings; split into at most num substrings if given.
+ï¿½ ï¿½ ï¿½ Splits string according to delimiter str (space if not provided) and returns list of substrings; split into at most num substrings if given.
 
-32   splitlines( num=string.count('\n'))
+32ï¿½ ï¿½splitlines( num=string.count('\n'))
 
-      Splits string at all (or num) NEWLINEs and returns a list of each line with NEWLINEs removed.
+ï¿½ ï¿½ ï¿½ Splits string at all (or num) NEWLINEs and returns a list of each line with NEWLINEs removed.
 
-33   startswith(str, beg=0,end=len(string))
+33ï¿½ ï¿½startswith(str, beg=0,end=len(string))
 
-      Determines if string or a substring of string (if starting index beg and ending index end are given) starts with substring str; returns true if so and false otherwise.
+ï¿½ ï¿½ ï¿½ Determines if string or a substring of string (if starting index beg and ending index end are given) starts with substring str; returns true if so and false otherwise.
 
-34   strip([chars])
+34ï¿½ ï¿½strip([chars])
 
-      Performs both lstrip() and rstrip() on string
+ï¿½ ï¿½ ï¿½ Performs both lstrip() and rstrip() on string
 
-35   swapcase()
+35ï¿½ ï¿½swapcase()
 
-      Inverts case for all letters in string.
+ï¿½ ï¿½ ï¿½ Inverts case for all letters in string.
 
-36   title()
+36ï¿½ ï¿½title()
 
-      Returns "titlecased" version of string, that is, all words begin with uppercase and the rest are lowercase.
+ï¿½ ï¿½ ï¿½ Returns "titlecased" version of string, that is, all words begin with uppercase and the rest are lowercase.
 
-37   translate(table, deletechars="")
+37ï¿½ ï¿½translate(table, deletechars="")
 
-      Translates string according to translation table str(256 chars), removing those in the del string.
+ï¿½ ï¿½ ï¿½ Translates string according to translation table str(256 chars), removing those in the del string.
 
-38   upper()
+38ï¿½ ï¿½upper()
 
-      Converts lowercase letters in string to uppercase.
+ï¿½ ï¿½ ï¿½ Converts lowercase letters in string to uppercase.
 
-39   isdecimal()
+39ï¿½ ï¿½isdecimal()
 
-      Returns true if a unicode string contains only decimal characters and false otherwise.
+ï¿½ ï¿½ ï¿½ Returns true if a unicode string contains only decimal characters and false otherwise.

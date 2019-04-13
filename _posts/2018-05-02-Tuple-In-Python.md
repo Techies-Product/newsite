@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "Tuple in Python"
+author: sourabh
+categories: [ jumpstart ]
+image: 
+---
 <span style="font-family: Arial, sans-serif; color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">Tuples are ordered list of comma separated values and it is immutable.</span>
 
 <span style="font-family: Arial, sans-serif; color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">Different data types can be stored in a tuple.</span>
@@ -16,7 +23,7 @@
 
 <span style="font-family: Arial, sans-serif; color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">Element access with square brackets and zero-based index t[index].</span>
 
-<span style="font-family: Arial, sans-serif; color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">Can’t use one object in parentheses a single element tuple, for example, use (321,) instead of (321).</span>
+<span style="font-family: Arial, sans-serif; color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">Canï¿½t use one object in parentheses a single element tuple, for example, use (321,) instead of (321).</span>
 
 <span style="font-family: Arial, sans-serif; color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">For a single element tuple include a trailing comma.</span>
 
@@ -32,6 +39,6 @@
 
 <span style="font-family: Arial, sans-serif; color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">Tuples are useful for multiple return values.</span>
 
-<span style="font-family: Arial, sans-serif; color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">Creating tuple and performing some operation on that: </span>
+<span style="font-family: Arial, sans-serif; color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">Creating tuple and performing some operation on that:ï¿½</span>
 
 <iframe src="https://repl.it/@Sumn/Tuples?lite=true" width="100%" height="400px" frameborder="no" scrolling="no" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" allowfullscreen="allowfullscreen"></iframe>

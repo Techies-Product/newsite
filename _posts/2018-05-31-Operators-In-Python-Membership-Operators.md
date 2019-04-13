@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Python Membership Operators"
+author: sourabh
+categories: [ jumpstart ]
+image: 
+---
+
 ### **Python Membership Operators** Python membership operators used for test membership in a sequence, like string, list, tuples. Now we will see two Membership Operators and how to implement Membership operations in python.
 
 <table style="border-collapse: collapse; width: 100%;" border="1">

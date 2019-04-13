@@ -1,3 +1,11 @@
+---
+layout: post
+title:  "Variables in Python"
+author: sourabh
+categories: [ jumpstart ]
+image: 
+---
+
 Variable is a named location used to store data in the memory. Each variable must have a unique name called identifier. Based on the data type of a variable, the interpreter allocates memory and decides what can be stored in the reserved memory.
 
 By assigning different data types to variables, we can store integers, decimals or characters in these variables.
@@ -16,9 +24,9 @@ a variable is the name of a variable and expression is a value.
 
 <iframe src="https://repl.it/@Sumn/variable-1?lite=true" width="100%" height="400px" frameborder="no" scrolling="no" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals" allowfullscreen="allowfullscreen"></iframe>
 
-In the above program, we assigned values 5,3.5 and hello. Then we print the assigned values using print function.
+In the above program, we assignedï¿½valuesï¿½5,3.5 and hello. Then we print the assigned valuesï¿½using print function.
 
-**Variable Naming Rules **
+**Variable Naming Rulesï¿½**
 
 1\. We cannot use one of Python's keywords as a variable name.
 
@@ -26,7 +34,7 @@ In the above program, we assigned values 5,3.5 and hello. Then we print the assi
 
 3\. The first character must be one of the letters a through z, A through Z or an underscore character (-).
 
-After the first character, we may use the letters a through z or A through 2, the digits O through 9, or underscores.
+After the first character,ï¿½we may use the letters a through z or A through 2, the digits O through 9, or underscores.
 
 4\. Uppercase and lowercase characters are distinct. This means the variable name Salary and salary both are different.
 
