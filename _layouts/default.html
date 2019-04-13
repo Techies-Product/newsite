@@ -1,107 +1,98 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    {% if site.url contains "//dev." %}
-      <meta name="robots" content="noindex">
-    {% endif %}
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{page.title}} | {{site.name}}</title>
 
-    <meta name="author" content="{{ site.name }}" />
-    <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{% if page.excerpt %}{{ page.excerpt | markdownify | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}{% endif %}">
+    {% seo %}
 
-    <!-- Facebook metadata -->
-    <meta property="fb:admins" content="" />
-    <meta property="og:image" content="{% if page.hero %}{{ page.hero }}{% else %}https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png{% endif %}"/>
-    <meta property="og:title" content="{{ page.title }}"/>
-    <meta property="og:url" content="{{ page.url }}"/>
-    <meta property="og:site_name" content="Stack Overflow Blog"/>
-    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{% if page.excerpt %}{{ page.excerpt | markdownify | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}{% endif %}">
-    <meta property="og:type" content="website"/>
+    <link rel="shortcut icon" type="image/x-icon" href="{{site.baseurl}}/{{site.favicon}}">
 
-    <!-- Twitter metadata -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@StackOverflow">
-    <meta name="twitter:creator" content="@StackOverflow">
-    <meta name="twitter:title" content="{{ page.title }}">
-    <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines }}{% else %}{% if page.excerpt %}{{ page.excerpt | markdownify | strip_html | strip_newlines }}{% else %}{{ site.description }}{% endif %}{% endif %}">
-    <meta name="twitter:image" content="{% if page.hero %}{{ page.hero }}{% else %}https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png{% endif %}">
-    <meta name="twitter:image:alt" content="{% if page.hero %}{{ page.title }}{% else %}Stack Overflow{% endif %}">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
-    <!--[if lt IE 9]>
-      <script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/all.css" />
+    <!-- Bootstrap Modified -->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
 
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed/" />
-  </head>
+    <!-- Theme Stylesheet -->
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/theme.css">
 
-  <body>
+    <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+    {% include tracking-header.html %}
+
+
+</head>
+
+<body class="{% if page.url == "/" %} homefirstpage {% endif %}">
+
+    <!-- Navbar -->
+    <nav id="MagicMenu" class="topnav navbar navbar-expand-lg navbar-light bg-white fixed-top">
     <div class="container">
-      {% include header.html %}
-    <div id="main" role="main">
-      {{ content }}
+        <a class="navbar-brand" href="{{ site.baseurl }}/index.html"><strong>{{site.name}}</strong></a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse" id="navbarColor02" style="">
+            <ul class="navbar-nav mr-auto d-flex align-items-center">
+               {% include menu-header.html %}
+            </ul>
+            <ul class="navbar-nav ml-auto d-flex align-items-center">
+                {% include search-lunr.html %}
+            </ul>
+        </div>
+    </div>
+    </nav>
+
+    <!-- Search Results -->
+    <div id="lunrsearchresults">
+        <ul class="mb-0"></ul>
     </div>
 
-    <footer class="footer">
-      <div class="inner-container">
-        <div class="-row">
-          {% unless page.url == '/' %}
-            <div class="-col2 media-padded">
-              <h4>Our Blogs</h4>
-              <p><a href="//codeforaliving.io">Code for a Living</a></p>
-              <p><a href="//business.stackoverflow.com/blog">Talent</a></p>
-              <p><a href="/company/">Company</a></p>
-              <p><a href="/engineering/">Engineering</a></p>
+    <!-- Content -->
+    <main role="main" class="site-content">
+        {{ content }}
+    </main>
+
+
+    <!-- Scripts: popper, bootstrap, theme, lunr -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+    <script src="{{site.baseurl}}/assets/js/theme.js"></script>
+
+
+    <!-- Footer -->
+    <footer class="bg-white border-top p-3 text-muted small">
+        <div class="container">
+        <div class="row align-items-center justify-content-between">
+            <div>
+                <span class="navbar-brand mr-2 mb-0"><strong>Mundana</strong></span>
+                <span>Copyright © <script>document.write(new Date().getFullYear())</script>.</span>
+
+                <!--  Github Repo Star Btn-->
+                <a class="text-dark ml-1" target="_blank" href="https://github.com/wowthemesnet/mundana-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>
+
             </div>
-          {% endunless %}
-          <div class="-col2 media-padded">
-            <h4>Business Products</h4>
-            <p><a href="/talent">Hire Developers</a></p>
-            <p><a href="/advertise">Advertise With Us</a></p>
-            <p><a href="/enterprise">Get Stack Overflow Enterprise</a></p>
-          </div>
-          <div class="-col2 media-padded">
-            <h4>Company</h4>
-            <p><a href="https://stackoverflow.com/company/about">About Us</a></p>
-            <p><a href="https://stackoverflow.com/company/work-here">Work Here</a></p>
-            <p><a href="http://meta.stackoverflow.com/">Any feedback?</a></p>
-          </div>
-          <div class="-col2 media-padded">
-            <h4>Support</h4>
-            <p><a href="https://stackexchange.com/about/contact">Contact Us</a></p>
-            <p><a href="https://stackexchange.com/legal/privacy-policy">Privacy Policy</a></p>
-            <p><a href="https://stackexchange.com/legal">Legal</a></p>
-          </div>
-          <div class="-col2 media-padded">
-            <h4>Connect</h4>
-            <p><a href="https://www.facebook.com/officialstackoverflow/">Facebook</a></p>
-            <p><a href="https://twitter.com/stackoverflow">Twitter</a></p>
-            <p><a href="https://www.linkedin.com/company/stack-overflow">LinkedIn</a></p>
-            {% unless page.url == '/'%}
-            <p><a href="https://stackoverflow.com/podcast">Podcast</a></p>
-            <p><a href="/speakers/">Speakers</a></p>
-            {% endunless %}
-          </div>
-          {% if page.url == '/' %}<div class="-col2"></div>{% endif %}
-          <div class="-col2 media-padded">
-            <p><strong>&copy; {{ site.time | date: "%Y" }} Stack Overflow</strong></p>
-          </div>
+            <div>
+                Made with <a target="_blank" class="text-dark font-weight-bold" href="https://www.wowthemes.net/mundana-jekyll-theme/"> Mundana Jekyll Theme </a> by <a class="text-dark" target="_blank" href="https://www.wowthemes.net">WowThemes</a>.
+            </div>
         </div>
-        <p style="color: #ccc; margin-top: 25px; font-size: 10px; text-align: right;">Last build {{ site.time | date: "%a, %d %b %Y %T +0000" }}</p>
-      </div>
+        </div>
     </footer>
-    </div>
-    {% include analytics.html %}
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script>
-      $(window)
-        .scroll(function() {
-            $('header').toggleClass('sticky', $(this).scrollTop() > 1);
-        });
-    </script>
-  </body>
+
+    {% include tracking-footer.html %}
+
+</body>
+
 </html>
