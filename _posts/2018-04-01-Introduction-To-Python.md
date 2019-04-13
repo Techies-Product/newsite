@@ -3,7 +3,7 @@ layout: post
 title:  "Introduction to Python"
 author: sourabh
 categories: [ jumpstart ]
-image: ""
+image: "/assets/images/demo1.jpg"
 ---
 In this tutorial, we will learn about python, why to use it and history of python.
 
