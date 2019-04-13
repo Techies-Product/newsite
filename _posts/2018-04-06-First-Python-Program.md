@@ -5,7 +5,6 @@ author: sourabh
 categories: [ jumpstart ]
 image: ""
 ---
-
 **First Python Program**
 
 Let ‘s start with a classic and tradition program in computer programming, a simple program that displays “Hello, World!”.
