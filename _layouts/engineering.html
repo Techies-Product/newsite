@@ -1,0 +1,22 @@
+---
+layout: default
+top_nav: engineering
+header_headline: Engineering
+header_subhead: Keep tabs on what Stack Overflow's engineering team does to keep the world's largest developer community up and running
+---
+
+
+<div class="inner-container padded">
+	<div class="-row">
+		<div class="-col8">
+			<div class="posts">
+				{{ paginator.posts }}
+			</div>
+		</div>
+		<div class="-col4">
+			{% include engineering/sidebar.html %}
+		</div>
+	</div>
+</div>
+
+{% include paginator.html %}
