@@ -45,7 +45,7 @@ If we select  **"customize installation"**  it will allow us to select installat
 
 ![](https://raw.githubusercontent.com/sourabhsomani/PythonBabu/master/Shaili/InstallationPython/image4.PNG)
 
-**Step** **5**
+**Step 5**
 
 To select install launcher for all users we need to select "**Customize installation**". In this following options are available:
 
