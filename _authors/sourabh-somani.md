@@ -1,0 +1,26 @@
+---
+title: "Sourabh Somani"
+layout: default
+permalink: "/author/sourabh-somani"
+---
+<div class="container">
+<div class="row justify-content-center">
+    <div class="col-md-8">        
+        <div class="row align-items-center mb-5">
+            <div class="col-md-9">
+                <h2 class="font-weight-bold">{{page.title}} <span class="small btn btn-outline-success btn-sm btn-round"><a href="{{ site.authors.sourabh.twitter }}">Follow</a></span></h2>
+                <p><a href="{{ site.authors.sourabh.site }}">{{ site.authors.sourabh.site }}</a></p>
+                <p class="excerpt">{{ site.authors.sourabh.bio }}</p>
+            </div>
+            <div class="col-md-3 text-right">
+                <img alt="{{ site.authors.sourabh.name }}" src="{{site.baseurl}}/{{ site.authors.sourabh.avatar }}" class="rounded-circle" height="100" width="100">
+            </div>
+        </div>
+        <h4 class="font-weight-bold spanborder"><span>Posts by {{page.title}}</span></h4>
+            {% assign posts = site.posts | where:"author","sourabh" %}
+            {% for post in posts %}
+            {% include main-loop-card.html %}
+            {% endfor %}
+    </div>
+</div>
+</div>

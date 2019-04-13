@@ -8,7 +8,7 @@ disqus: 'demowebsite'
 email: 'wowthemesnet@gmail.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
-include: ["_pages","_interview_questions","_blogs","_resources"]
+include: ["_pages","_interview_questions","_blogs","_resources","_authors"]
 permalink: /:title/
 
 # Plugins
@@ -20,6 +20,7 @@ plugins:
   
 authors:
     sourabh:
+      id:             sourabh-somani
       name:           Sourabh Somani
       site:           https://www.sourabhsomani.com
       avatar:         /assets/images/avatar1.jpg
@@ -28,7 +29,9 @@ authors:
       Most of the time you will find him helping people on C# Corner and StackOverflow on JavaScript, .NET and Python. He is a frequent contributor to open source software development via forums, articles, and blogs. He regularly speaks at user groups and developer conferences. His core technology interests are JavaScript, Python and .NET."
       email:          sourabh_somani2010@hotmail.com
       twitter:        https://twitter.com/sourabh_somani
+      facebook:        https://www.facebook.com/hackersourabh
     sal:
+      id:             Sal
       name:           Sal
       site:           https://www.wowthemes.net
       avatar:         /assets/images/avatar1.jpg
@@ -37,6 +40,7 @@ authors:
       twitter:        https://twitter.com/wowthemesnet
 
     jane:
+      id:             Jane
       name:           Jane
       site:           https://www.wowthemes.net
       avatar:         /assets/images/avatar2.jpg
