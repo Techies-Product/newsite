@@ -3,7 +3,7 @@ layout: post
 title:  "Operators in Python"
 author: sourabh
 categories: [ jumpstart ]
-image: 
+image: ""
 ---
 
 Operators are symbols which can manipulate the value of operands by performing mathematical and logical operations.

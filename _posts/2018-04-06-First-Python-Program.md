@@ -3,7 +3,7 @@ layout: post
 title:  "First Python Program"
 author: sourabh
 categories: [ jumpstart ]
-image: 
+image: ""
 ---
 
 **First Python Program**

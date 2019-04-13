@@ -3,7 +3,7 @@ layout: post
 title:  "String in Python"
 author: sourabh
 categories: [ jumpstart ]
-image: 
+image: ""
 ---
 
 <span style="font-family: Arial, sans-serif; color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">Python has a built-in string class named "str".</span>

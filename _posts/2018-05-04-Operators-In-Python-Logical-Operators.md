@@ -3,7 +3,7 @@ layout: post
 title:  "Python Logical Operators"
 author: sourabh
 categories: [ jumpstart ]
-image: 
+image: ""
 ---
 
 ### **Python Logical Operators**

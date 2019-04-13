@@ -3,7 +3,7 @@ layout: post
 title:  "Conditions in Python"
 author: sourabh
 categories: [ jumpstart ]
-image: 
+image: ""
 ---
 
 In programming and scripting languages, conditional statements are used to perform different computations or actions depending on whether a condition evaluates to true or false. The condition usually uses comparisons and arithmetic expressions with variables. These expressions are evaluated to the Boolean values True or False.

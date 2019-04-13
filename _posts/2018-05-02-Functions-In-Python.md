@@ -3,7 +3,7 @@ layout: post
 title:  "Functions in Python"
 author: sourabh
 categories: [ jumpstart ]
-image: 
+image: ""
 ---
 
 <span style="color: #666666; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial;">A function<span style="word-spacing: 3px;">�is a group of related statements that perform a specific task.</span></span>

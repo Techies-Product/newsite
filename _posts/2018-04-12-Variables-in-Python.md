@@ -3,7 +3,7 @@ layout: post
 title:  "Variables in Python"
 author: sourabh
 categories: [ jumpstart ]
-image: 
+image: ""
 ---
 
 Variable is a named location used to store data in the memory. Each variable must have a unique name called identifier. Based on the data type of a variable, the interpreter allocates memory and decides what can be stored in the reserved memory.

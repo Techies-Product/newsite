@@ -3,7 +3,7 @@ layout: post
 title:  "List in Python"
 author: sourabh
 categories: [ jumpstart ]
-image: 
+image: ""
 ---
 
 <span style="font-family: Arial, sans-serif;">�</span><span style="color: #666666; font-family: Arial, sans-serif; font-size: 12pt;">list�is the primary collection data type for managing a set of related items.</span>

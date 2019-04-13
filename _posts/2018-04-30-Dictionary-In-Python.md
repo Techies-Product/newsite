@@ -3,7 +3,7 @@ layout: post
 title:  "Dictionary in Python"
 author: sourabh
 categories: [ jumpstart ]
-image: 
+image: ""
 ---
 
 <span style="font-size: 12.0pt; font-family: 'Arial',sans-serif; mso-fareast-font-family: 'Times New Roman'; color: #666666;">Dictionary is an unordered mapping from unique,�immutable keys to mutable values and d</span><span style="font-size: 12.0pt; font-family: 'Arial',sans-serif; mso-fareast-font-family: 'Times New Roman'; color: #666666;">elimited by { and }.</span>

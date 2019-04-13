@@ -3,7 +3,7 @@ layout: post
 title:  "Python Assignmenet Operators"
 author: sourabh
 categories: [ jumpstart ]
-image: 
+image: ""
 ---
 
 ### Python Assignment Operators

@@ -3,7 +3,7 @@ layout: post
 title:  "Boolean Type in Python"
 author: sourabh
 categories: [ jumpstart ]
-image: 
+image: ""
 ---
 
 **Boolean**

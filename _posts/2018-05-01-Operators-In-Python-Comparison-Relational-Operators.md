@@ -3,7 +3,7 @@ layout: post
 title:  "Python Comparison (Relational) Operators"
 author: sourabh
 categories: [ jumpstart ]
-image: 
+image: ""
 ---
 
 ### **Python Comparison (Relational) Operators**

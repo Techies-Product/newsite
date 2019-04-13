@@ -3,7 +3,7 @@ layout: post
 title:  "Data Types in Python"
 author: sourabh
 categories: [ jumpstart ]
-image: 
+image: ""
 ---
 
 A data type is a classification of one of a variety of types of data, such as Number, Boolean, Strings and so on. Data types determine the possible value for the type. If an operation is done then it can be done on the value of that type.
