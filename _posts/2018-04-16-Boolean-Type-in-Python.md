@@ -1,5 +1,3 @@
-"
-
 **Boolean**
 
 In computer science, booleans has two values which can be either true or false. Boolean values represents truth value of the logic and boolean algebra.
@@ -17,7 +15,7 @@ _Output_
 
 **Why True/False is capitalized in Python?**
 
-I already told you that ""True"" and ""False"" all <a title="" built-in="" constants="" of="" python""="" href="" http:="" docs.python.org="" library="" constants.html""="" target="" _blank""="" rel="" noopener""="">built-in constants of Python</a> are capitalized or [upper] CamelCase. 
+I already told you that ""True"" and ""False"" all <a title="" built-in="" constants="" of="" python""="" href="" http:="" docs.python.org="" library="" constants.html""="" target="" _blank""="" rel="" noopener""="">built-in constants of Python</a> are capitalized or [upper] CamelCase.ï¿½
 
 In Python booleans can be treated as numbers. A True value is 1 and a False value is 0\. You can also do any operation between boolean values in Python.
 
@@ -29,7 +27,7 @@ _Example_
 
 _Output_
 
-Output of the above result will be 2. 
+Output of the above result will be 2.ï¿½
 
 Following are some examples of boolean operations
 
@@ -49,5 +47,3 @@ _<span style="" font-size:="" 10.5pt;="" line-height:="" 107%;="" font-family:="
 _Output_
 
 <iframe src="" https:="" repl.it="" @sourabhsomani="" type-of-boolean?lite="true&quot;&quot;" width="" 100%""="" height="" 400px""="" frameborder="" no""="" scrolling="" sandbox="" allow-forms="" allow-pointer-lock="" allow-popups="" allow-same-origin="" allow-scripts="" allow-modals""="" allowfullscreen="" allowfullscreen""=""></iframe>
-
-"
