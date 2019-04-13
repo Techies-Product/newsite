@@ -8,7 +8,7 @@ disqus: 'demowebsite'
 email: 'wowthemesnet@gmail.com'
 mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 
-include: ["_pages"]
+include: ["_pages","_interview_questions","_blogs","_resources"]
 permalink: /:title/
 
 # Plugins
@@ -19,6 +19,15 @@ plugins:
   - jekyll-seo-tag
   
 authors:
+    sourabh:
+      name:           Sourabh Somani
+      site:           https://www.sourabhsomani.com
+      avatar:         /assets/images/avatar1.jpg
+      bio:            "Sourabh Somani is a Full-Stack Engineer with several years of hands-on experience. He has been awarded 3-times Microsoft MVP award consecutively and C# Corner MVP Award 6-times. 
+      
+      Most of the time you will find him helping people on C# Corner and StackOverflow on JavaScript, .NET and Python. He is a frequent contributor to open source software development via forums, articles, and blogs. He regularly speaks at user groups and developer conferences. His core technology interests are JavaScript, Python and .NET."
+      email:          sourabh_somani2010@hotmail.com
+      twitter:        https://twitter.com/sourabh_somani
     sal:
       name:           Sal
       site:           https://www.wowthemes.net
