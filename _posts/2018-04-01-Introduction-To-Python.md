@@ -8,6 +8,9 @@ image: "/assets/images/demo1.jpg"
 permalink: "/python-basic-tutorial/introduction-to-python"
 isTutorial: true
 ---
+
+**Introduction**
+
 In this tutorial, we will learn about python, why to use it and history of python.
 
 Python is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. Python is a widely used general-purpose, high-level programming language.
