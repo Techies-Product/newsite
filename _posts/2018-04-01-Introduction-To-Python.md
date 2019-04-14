@@ -2,9 +2,11 @@
 layout: post
 title:  "Introduction to Python"
 author: sourabh
-categories: [ jumpstart, tutorial, basic of python ]
+categories: [ basic of python ]
+tag: [python]
 image: "/assets/images/demo1.jpg"
 permalink: "/python-basic-tutorial/introduction-to-python"
+isTutorial: true
 ---
 In this tutorial, we will learn about python, why to use it and history of python.
 
