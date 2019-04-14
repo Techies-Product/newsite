@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introduction to Python"
+title:  "Boolean Type in Python"
 author: sourabh
 categories: [ jumpstart, tutorial, basic of python ]
 image: "/assets/images/demo1.jpg"
