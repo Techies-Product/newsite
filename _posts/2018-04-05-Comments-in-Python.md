@@ -1,13 +1,19 @@
 ---
 layout: post
-title:  "Installation of Python"
+title:  "Comments in Python"
 author: sourabh
-categories: [ jumpstart ]
-image: ""
+categories: [ Basic of Python ]
+tag: [python,comments,python comments,comment types]
+image: "/assets/images/demo1.jpg"
+permalink: "/python-basic-tutorial/comments-in-python"
+isTutorial: true
 ---
-# Comments in Python
 
-**Comments**
+**Introduction**
+
+In this tutorial we will learn about the python comments and we will also know about types of comments in the python.
+
+**What are Comments?**
 
 Comments play a very important role in the maintenance of the program. It explicates what's actually happening inside a program. when we place comments inside the source code, it enhances the readability and understanding of the code.
 
@@ -18,34 +24,36 @@ Python permits two types of comments, namely
 -   Single-line Comments
 -   Multi-line Comments
 
-_**Single-line comments**_
+**Single-line comments**
 
 It begins with a hash (#) symbol and terminates at the end of the line.
 
-```python 
+*Example*
+
+{% highlight python %}
 # This is a single line comment
 # Adding two numbers (2 and 3)
 print(2+3)
-```
+{% endhighlight %}
 
-_**Multi-line Comment**_
+**Multi-line Comment**
 
 If we want to put comments in more then one line we can use hash(#) beginning of every line.
 
-```python
+*Example*
+{% highlight python %}
 # Hey folks
 # We can place the hash symbol in 
 # beginning of the each line
 # To extends comments to multiple line 
+{% endhighlight %}
 
-```
+There is one more way to do the same, using triple quotes either ''' or """
 
-There is one more way to do the same, using triple quotes either  ' ' ' or " " "
+*Example*
 
-```python
-
-"""
-Here is the 
+{% highlight python %}
+"""Here is the 
 best example to write
 multi-line comments"""
-```
+{% endhighlight %}
