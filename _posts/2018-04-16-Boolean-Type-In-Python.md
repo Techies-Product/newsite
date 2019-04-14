@@ -55,11 +55,11 @@ The type function returns the datatype of any arbitrary object.This is useful fu
 
 *Example*
 
-```Python
+{% highlight python %}
 a=True
 print(typeof(a))
 b=False
 print(typeof(b))
-```
+{% endhighlight %}
 
 *Output*
