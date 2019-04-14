@@ -21,8 +21,10 @@ In python there are two constants, True and False, that can be used to assign va
 
 *Example*
 
+```Python
 a=True;
 print(a);
+```
 
 *Output*
 
@@ -34,9 +36,11 @@ In Python booleans can be treated as numbers. A True value is 1 and a False valu
 
 *Example*
 
+```Python
 a=True
 b=True
 print(a+b) 
+```
 
 *Output*
 
@@ -50,9 +54,11 @@ The type function returns the datatype of any arbitrary object.This is useful fu
 
 *Example*
 
+```Python
 a=True
 print(typeof(a))
 b=False
 print(typeof(b))
+```
 
 *Output*
