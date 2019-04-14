@@ -44,6 +44,7 @@ print(a+b)
 
 *Output*
 
+
 Output of the above result will be 2.
 
 Following are some examples of boolean operations
