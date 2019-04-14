@@ -2,7 +2,7 @@
 layout: post
 title:  "Introduction to Python"
 author: sourabh
-categories: [ basic of python ]
+categories: [ Basic of Python ]
 tag: [python]
 image: "/assets/images/demo1.jpg"
 permalink: "/python-basic-tutorial/introduction-to-python"
