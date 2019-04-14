@@ -21,10 +21,10 @@ In python there are two constants, True and False, that can be used to assign va
 
 *Example*
 
-```Python
+{% highlight python %}
 a=True;
 print(a);
-```
+{% endhighlight %}
 
 *Output*
 
@@ -36,11 +36,11 @@ In Python booleans can be treated as numbers. A True value is 1 and a False valu
 
 *Example*
 
-```Python
+{% highlight python %}
 a=True
 b=True
 print(a+b) 
-```
+{% endhighlight %}
 
 *Output*
 
