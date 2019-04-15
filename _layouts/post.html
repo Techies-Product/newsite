@@ -6,7 +6,7 @@ layout: default
 <div class="jumbotron jumbotron-fluid mb-3 pl-0 pt-0 pb-0 bg-white position-relative">
 		<div class="h-100 tofront">
 			<div class="row {% if page.image %} justify-content-between {% else %} justify-content-center {% endif %}">
-				<div class="{% if page.image %} col-md-6 {% else %} col-md-8 {% endif %} pr-0 pr-md-4 pt-4 pb-4 align-self-center">
+				<div class="{% if page.image %} col-md-8 {% else %} col-md-8 {% endif %} pr-0 pr-md-4 pt-4 pb-4 align-self-center">
 					<h1 class="display-4 mb-4 article-headline">{{ page.title }}</h1>
 					<p class="text-uppercase font-weight-bold">
                         <span class="catlist">
@@ -24,7 +24,7 @@ layout: default
 						</small>
 					</div>
 				</div>
-                {% if page.image %}
+                {% if page.image1 %}
 				<div class="col-md-6 pr-0 align-self-center">
 					<img class="rounded" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">
 				</div>

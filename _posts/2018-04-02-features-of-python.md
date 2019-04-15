@@ -3,7 +3,7 @@ layout: post
 title:  "Features of Python"
 author: sourabh
 categories: [ Basic of Python ]
-tag: [python]
+tag: [python,pyhon features,why to use python]
 image: "/assets/images/demo1.jpg"
 permalink: "/python-basic-tutorial/features-of-python"
 isTutorial: true
