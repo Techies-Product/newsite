@@ -1,10 +1,14 @@
 ---
 layout: post
-title:  "Installation of Python"
+title:  "Python Installation"
 author: sourabh
-categories: [ jumpstart ]
-image: ""
+categories: [ Basic of Python ]
+tag: [python,installation,python download]
+image: "/assets/images/demo1.jpg"
+permalink: "/python-basic-tutorial/installation-of-python"
+isTutorial: true
 ---
+
 **Introduction**
 
 In this tutorial, we will learn about how to install python 3. Python is available for a variety of platforms.
