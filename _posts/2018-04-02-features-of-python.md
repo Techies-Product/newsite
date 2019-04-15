@@ -45,16 +45,17 @@ In python, you can divide and split your program into several sets of modules wh
 
 Python also provides some of the standard modules some of the modules are listed below
 
-· **sys**  
+- **sys**  
 Access system-specific parameters and functions.
 
-· **math**  
+- **math**  
 It provides access to the mathematical functions.
 
-· **datetime**  
+- **datetime**  
 Basic date and time types
 
-· **io**Core tools for working with streams.
+- **io**
+Core tools for working with streams.
 
 [Python Modules List](https://docs.python.org/3/py-modindex.html "Python Modules List")
 
