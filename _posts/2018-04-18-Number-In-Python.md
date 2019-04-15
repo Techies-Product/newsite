@@ -14,14 +14,18 @@ Integers, floating point and complex come under numbers.
 
 We can use the type() function to know which class a variable or a value belongs to and the isinstance() function to check if an object belongs to a particular class
 
-Integer
+**Integer**
 
 An Integer type holds an integer value or a whole number that can be a negative or positive value, like -5, -4, 0, 8, 9, 10 and so on. In the Python you can declare an integer value such as in the following:
-Example
+
+*Example*
+
+{% highlight python %}
 a=15
 print(a)
+{% endhighlight %}
 
-Output
+*Output*
 
 But in the preceding example, you cannot determine the type of the variable. So in Python, we have a function by which we can get the type of a variable. The function is as in the following:
 
