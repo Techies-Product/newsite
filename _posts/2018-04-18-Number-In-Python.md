@@ -1,11 +1,14 @@
 ---
 layout: post
-title:  "Number In Python"
+title:  "Number in Python"
 author: sourabh
-categories: [ jumpstart, tutorial, basic of python ]
+categories: [ Basic of Python ]
+tag: [python,number]
 image: "/assets/images/demo1.jpg"
-permalink: "/python-basic-tutorial/introduction-to-python"
+permalink: "/python-basic-tutorial/numbers-to-python"
+isTutorial: true
 ---
+
 Number In Python
 Integers, floating point and complex come under numbers.
 
