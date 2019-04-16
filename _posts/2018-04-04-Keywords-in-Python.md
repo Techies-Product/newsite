@@ -7,7 +7,7 @@ tag: [python,keywords,reserved words]
 image: "/assets/images/demo1.jpg"
 permalink: "/python-basic-tutorial/python-keywords"
 isTutorial: true
-custom_js:"<script>document.querySelectorAll('.article-post table')[0].className='table table-borderless table-dark';</script>"
+custom_js: "<script>document.querySelectorAll('.article-post table')[0].className='table table-borderless table-dark';</script>"
 ---
 
 **Introduction**
