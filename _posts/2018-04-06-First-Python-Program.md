@@ -5,7 +5,7 @@ author: sourabh
 categories: [ Basic of Python ]
 tag: [python,first program,hello world]
 image: "/assets/images/demo1.jpg"
-permalink: "/python-basic-tutorial/introduction-to-python"
+permalink: "/python-basic-tutorial/first-python-program"
 isTutorial: true
 ---
 
