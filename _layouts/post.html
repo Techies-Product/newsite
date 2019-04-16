@@ -149,3 +149,8 @@ layout: default
         </div>
     </div>
 </div>
+{% if page.custom_js %}
+    {% for js_file in page.custom_js %}
+    {{ js_file }}
+    {% endfor %}
+{% endif %}
