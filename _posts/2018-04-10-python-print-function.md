@@ -22,19 +22,24 @@ print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 
 As you can see into the syntax, there are five parameters which we can pass to the print() function
 
-- *Object
+- ***Object**
+
 Whatever object which you want to print on the screen or to the file. Here you can see the print function prefixed with the asterisk (*). Which says that you can pass more than one object.
 
-- sep
+- **sep**
+
 sep means separator which default value you can see one space.
 
-- end
+- **end**
+
 After every print statement what you want to print that you will define in end parameter. The default value of the print statements is Newline (\n)
 
-- file
+- **file**
+
 By using file parameter you can write your output into the file stream. By default its value is sys.stdout, It means output will be printed onto system's standard output stream, means will be printed on the console.
 
-- flush
+- **flush**
+
 It takes either True or False. When the value will be true stream will forcefully flushed. By default its value is False.
 
 *Example: Simple Print Function*
@@ -92,6 +97,7 @@ myfile.close()
 {% endhighlight %}
 
 **What python print() function returns?**
+
 Python print() function returns `None`
 
 *Example: returning value from the print function*
