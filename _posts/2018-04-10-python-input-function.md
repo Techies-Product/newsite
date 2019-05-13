@@ -21,9 +21,10 @@ Python `input` function is used to take input from the console. The input() meth
 
 Syntax of the input() method is as follows
 
-```python
+{% highlight python %} 
 input([prompt])
-```
+{% endhighlight %}
+
 *prompt*
 
 In the syntax you can see, python input function takes **prompt** argument. This argument is option argument.
