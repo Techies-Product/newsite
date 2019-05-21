@@ -132,6 +132,7 @@ pagination:
     
 </div>
     
+{% comment %} 
 <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
 {% for post in site.posts %} 
 {% if post.tags contains "sticky" %}
@@ -152,6 +153,7 @@ pagination:
 </div> 
 {% endif %}
 {% endfor %}
+{% endcomment %} 
 
 
     
