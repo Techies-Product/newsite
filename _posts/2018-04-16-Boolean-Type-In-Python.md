@@ -4,7 +4,7 @@ title:  "Boolean Type in Python"
 author: sourabh
 categories: [ Basic of Python ]
 hashtag: [python,boolean,data type,bool type]
-image: "/assets/images/demo1.jpg"
+image: "https://imgs.pythonbabu.com/featured-imgs/basics/boolean-type/boolean.jpg"
 permalink: "/python-basic-tutorial/boolean-type-in-python"
 isTutorial: true
 ---
