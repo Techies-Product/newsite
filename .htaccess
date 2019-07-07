@@ -1,4 +1,4 @@
 ---
 ---
 RewriteEngine On
-Redirect http://new.pythonbabu.com/abcd https://www.pythonbabu.com
+Redirect https://new.pythonbabu.com/abcd https://www.pythonbabu.com
