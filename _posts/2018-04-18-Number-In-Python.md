@@ -4,7 +4,7 @@ title:  "Number in Python"
 author: sourabh
 categories: [ Basic of Python ]
 hashtag: [python,number]
-image: "/assets/images/demo1.jpg"
+image: "https://imgs.pythonbabu.com/featured-imgs/basics/number-in-python/numbers.jpg"
 permalink: "/python-basic-tutorial/numbers-to-python"
 isTutorial: true
 ---
