@@ -18,5 +18,4 @@ group :jekyll_plugins do
     gem 'jekyll-admin'
     gem 'rouge'
     gem 'redcarpet'
-    gem 'jekyll-redirect-from'
 end
