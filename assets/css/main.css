@@ -645,7 +645,11 @@ pre {
 
 .offset-11 {
   margin-left: 91.66667%; }
-
+.tutorial-listing{
+  display: inline-block!important;
+  width: 33.33%;
+  float: left!important;
+}
 @media (min-width: 576px) {
   .col-sm {
     flex-basis: 0;
@@ -1317,8 +1321,16 @@ pre {
     -webkit-overflow-scrolling: touch;
     -ms-overflow-style: -ms-autohiding-scrollbar; }
     .table-responsive-md > .table-bordered {
-      border: 0; } }
-
+      border: 0; } 
+      
+    }
+@media only screen and (max-width: 768px) {
+  .tutorial-listing{
+        display: inline-block!important;
+        width: 100%;
+        float: left!important;
+      }
+}
 @media (max-width: 991.98px) {
   .table-responsive-lg {
     display: block;
@@ -4445,11 +4457,7 @@ input[type="button"].btn-block {
     color: #fff;
     background-color: #797e7b;
     border-color: #797e7b; }
-    .tutorial-listing{
-      display: inline-block!important;
-      width: 33.33%;
-      float: left!important;
-    }
+    
 .close {
   float: right;
   font-size: 1.5rem;
@@ -5330,7 +5338,8 @@ button.bg-lightblue:focus {
   .d-md-flex {
     display: flex !important; }
   .d-md-inline-flex {
-    display: inline-flex !important; } }
+    display: inline-flex !important; } 
+  }
 
 @media (min-width: 992px) {
   .d-lg-none {
