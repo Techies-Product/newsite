@@ -3,8 +3,9 @@ layout: post
 title:  "Data Types in Python"
 author: sourabh
 categories: [ Basic of Python ]
-tag: [python,data types]
+hashhashtag: [python,data types]
 image: "/assets/images/demo1.jpg"
+tags: [featured]
 permalink: "/python-basic-tutorial/python-data-types"
 isTutorial: true
 ---

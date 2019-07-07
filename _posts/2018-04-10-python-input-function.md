@@ -3,7 +3,7 @@ layout: post
 title:  "Python Input Function"
 author: sourabh
 categories: [ Basic of Python ]
-tag: [python, input, function, input function]
+hashtag: [python, input, function, input function]
 image: "/assets/images/demo1.jpg"
 permalink: "/python-basic-tutorial/python-input-function"
 isTutorial: true

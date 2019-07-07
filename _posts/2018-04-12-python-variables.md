@@ -3,7 +3,7 @@ layout: post
 title:  "Python Variables"
 author: sourabh
 categories: [ Basic of Python ]
-tag: [python,variables]
+hashtag: [python,variables]
 image: "/assets/images/demo1.jpg"
 permalink: "/python-basic-tutorial/python-variables"
 isTutorial: true

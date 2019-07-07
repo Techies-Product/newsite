@@ -3,7 +3,7 @@ layout: post
 title:  "Python Installation"
 author: sourabh
 categories: [ Basic of Python ]
-tag: [python,installation,python download]
+hashtag: [python,installation,python download]
 image: "/assets/images/demo1.jpg"
 permalink: "/python-basic-tutorial/installation-of-python"
 isTutorial: true

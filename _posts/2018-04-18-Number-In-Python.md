@@ -3,7 +3,7 @@ layout: post
 title:  "Number in Python"
 author: sourabh
 categories: [ Basic of Python ]
-tag: [python,number]
+hashtag: [python,number]
 image: "/assets/images/demo1.jpg"
 permalink: "/python-basic-tutorial/numbers-to-python"
 isTutorial: true

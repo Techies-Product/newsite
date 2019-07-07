@@ -3,7 +3,7 @@ layout: post
 title:  "Boolean Type in Python"
 author: sourabh
 categories: [ Basic of Python ]
-tag: [python,boolean,data type,bool type]
+hashtag: [python,boolean,data type,bool type]
 image: "/assets/images/demo1.jpg"
 permalink: "/python-basic-tutorial/boolean-type-in-python"
 isTutorial: true

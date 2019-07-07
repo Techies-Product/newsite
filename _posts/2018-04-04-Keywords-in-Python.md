@@ -3,7 +3,7 @@ layout: post
 title:  "Keywords in Python"
 author: sourabh
 categories: [ Basic of Python ]
-tag: [python,keywords,reserved words]
+hashtag: [python,keywords,reserved words]
 image: "/assets/images/demo1.jpg"
 permalink: "/python-basic-tutorial/python-keywords"
 isTutorial: true

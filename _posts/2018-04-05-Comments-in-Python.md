@@ -3,7 +3,7 @@ layout: post
 title:  "Comments in Python"
 author: sourabh
 categories: [ Basic of Python ]
-tag: [python,comments,python comments,comment types]
+hashtag: [python,comments,python comments,comment types]
 image: "/assets/images/demo1.jpg"
 permalink: "/python-basic-tutorial/comments-in-python"
 isTutorial: true

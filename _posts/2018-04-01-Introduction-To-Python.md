@@ -3,7 +3,7 @@ layout: post
 title:  "Introduction to Python"
 author: sourabh
 categories: [ Basic of Python ]
-tag: [python,introduction,history of python]
+hashtag: [python,introduction,history of python]
 image: "/assets/images/demo1.jpg"
 permalink: "/python-basic-tutorial/introduction-to-python"
 isTutorial: true

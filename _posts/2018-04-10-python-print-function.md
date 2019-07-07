@@ -3,11 +3,11 @@ layout: post
 title:  "Python Print Function"
 author: sourabh
 categories: [ Basic of Python ]
-tag: [python,print,print fuction]
+hashtag: [python,print,print fuction]
 image: "/assets/images/demo1.jpg"
 permalink: "/python-basic-tutorial/print-function-in-python"
 isTutorial: true
-tags: featured
+tags: [featured]
 ---
 **Introduction**
 
