@@ -6,7 +6,7 @@ permalink: "/tutorials"
 
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-8">
+        <div class="col-md-12">
         <h1 class="font-weight-bold title h6 text-uppercase mb-4">Tutorials</h1>
         {% for category in site.categories %}     
           {% assign pages_list = category[1] | reverse %}
@@ -14,24 +14,23 @@ permalink: "/tutorials"
           {% if post.isTutorial != null %}
             {% if forloop.first == true %}
               <h4 class="font-weight-bold spanborder" id="{{ category[0] | downcase }}"><span>{{ category[0] }}</span></h4>
+              <div class="col-md-12">
             {% endif %}
             {% if post.title != null %}
               {% if group == null or group == post.group %}
-                {% include tutorial-listing-card.html %}
+                  {% include tutorial-listing-card.html %}
               {% endif %}
+            {% endif %}
+            {% if forloop.last == true %}
+              </ul>
             {% endif %}
           {% endif %}
         {% endfor %}
+        </div>
         {% assign pages_list = nil %}
         {% assign group = nil %}
 
         {% endfor %}
-
         </div>
-        
-            <div class="col-md-4">
-        {% include sidebar-featured.html %}    
-    </div>
-        
     </div>
 </div>

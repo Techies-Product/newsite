@@ -4445,7 +4445,11 @@ input[type="button"].btn-block {
     color: #fff;
     background-color: #797e7b;
     border-color: #797e7b; }
-
+    .tutorial-listing{
+      display: inline-block!important;
+      width: 33.33%;
+      float: left!important;
+    }
 .close {
   float: right;
   font-size: 1.5rem;
