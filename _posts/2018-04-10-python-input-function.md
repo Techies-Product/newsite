@@ -7,6 +7,7 @@ tag: [python, input, function, input function]
 image: "/assets/images/demo1.jpg"
 permalink: "/python-basic-tutorial/python-input-function"
 isTutorial: true
+tags: featured
 ---
 
 **Introduction**

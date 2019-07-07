@@ -7,6 +7,7 @@ tag: [python,print,print fuction]
 image: "/assets/images/demo1.jpg"
 permalink: "/python-basic-tutorial/print-function-in-python"
 isTutorial: true
+tags: featured
 ---
 **Introduction**
 
