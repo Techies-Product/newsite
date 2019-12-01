@@ -9,7 +9,7 @@ permalink: "/python-basic-tutorial/python-basic-operators"
 isTutorial: true
 tags: [featured]
 ---
-In this tutorial, we will learn input function of the python function
+In this tutorial, we will learn input function of the python function.
 **Types of Operators**
 Arithmetic Operators
 Comparison (Relational) Operators
@@ -18,3 +18,6 @@ Logical Operators
 Bitwise Operators
 Membership Operators
 Identity Operators
+
+**Python Arithmetic Operators**
+
