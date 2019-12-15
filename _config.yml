@@ -1,8 +1,8 @@
 # Site
 name: 'Python Babu'
 description: 'Python Babu is for the people like you, who is enthusiastic for learning.'
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/favicon.ico'
+logo: '/newsite/assets/images/logo.png'
+favicon: '/newsite/assets/images/favicon.ico'
 baseurl: ''
 disqus: 'demowebsite'
 email: 'wowthemesnet@gmail.com'
@@ -40,7 +40,7 @@ defaults:
     values:
       layout: post
       author: sal
-      avatar: /assets/images/avatar1.jpg
+      avatar: /newsite/assets/images/avatar1.jpg
       
   # all pages
   - scope:
