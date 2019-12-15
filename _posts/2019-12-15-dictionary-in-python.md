@@ -4,7 +4,7 @@ title:  "Dictionary In Python"
 author: sourabh
 categories: [ Basic of Python ]
 hashtag: [python,dictionary]
-image: "/assets/images/demo1.jpg"
+image: "https://imgs.pythonbabu.com/featured-imgs/basics/dictionary/main.jpg"
 permalink: "/python-basic-tutorial/dictionary-in-python"
 isTutorial: true
 ---
