@@ -5,7 +5,7 @@ author: sourabh
 categories: [ Basic of Python ]
 tags: [featured,sticky]
 hashtag: [python,first program,hello world]
-image: "/assets/images/demo1.jpg"
+image: "https://imgs.pythonbabu.com/featured-imgs/basics/first-program/main.png"
 permalink: "/python-basic-tutorial/first-python-program"
 isTutorial: true
 ---
